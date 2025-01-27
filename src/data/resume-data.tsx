@@ -9,177 +9,180 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Ian Hobbs",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  location: "Sydney Australia",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Artist, Photographer, Coder",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Interested in experimental forms of photography using a post-photography approach to themes of observation and technological vistas. 
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://ianhobbs.net",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ian@ianhobbs.net",
+    tel: "+61411032601",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        name: "Instagram",
+        url: "https://www.instagram.com/ianhobbs_media/",
         icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Sydney, Sydney College of Art",
+      degree: "BA(Hons) Major in Photomedia / Electronic Media",
+      start: "1998",
+      end: "1999",
+    },
+    {
+      school: "University of NSW",
+      degree: "Bachelor's Degree in Fine Art, Major in Photomedia",
+      start: "1980",
+      end: "1985",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
+      company: "Ian Hobbs Media",
+      link: "https://ianhobbsmedia.com.au",
+      badges: ["current"],
+      title: "Media",
+      logo: MobileVikingsLogo,
+      start: "2000",
+      end: "now",
+      description:
+        "Experience includes; Videographer, Editor, Photographer, Front-end development, Animator, Design, Web production, Server and Data Management. Client and Project Management. Art Direction, Concept development. Media strategy and Editorial strategy.",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
+      company: "Museum and Art Gallery of Nothern Territory",
+      link: "https://magnt.net.au",
+      badges: ["Fulltime"],
+      title: "Digitisation Officer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
+      start: "04/2024",
+      end: "10/2024",
+      description:
+        "Digitising Collections and managing data assets",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Codey",
+      link: "https://codey.com.au",
+      badges: ["current"],
+      title: "Web",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
+      start: "2011",
+      end: "now",
+      description:
+        "Server and site maintenance. Server management and Data management. Client service. Backup management. Site optimisation. Threat mitigation",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
+      company: "Sydney University SCA",
+      link: "https://www.sydney.edu.au/arts/schools/sydney-college-of-the-arts.html",
+      badges: ["Contract"],
+      title: "Research Officer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
+      start: "10/2018",
+      end: "12/2018",
+      description:
+        "Contract to research, collect and promote staff research outputs for University pages. Videography, Photography and research development. Prototyping web pages",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
+      company: "Sydney University SCA",
+      link: "https://www.sydney.edu.au/arts/schools/sydney-college-of-the-arts.html",
+      badges: ["Sessional"],
+      title: "Lecturer",
       logo: NSNLogo,
       start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      end: "2014",
+      description: "Design and deliver subjects in Photography and Electronic & New Media.",
     },
+    {
+      company: "Insearch UTS",
+      link: "https://utscollege.edu.au",
+      badges: ["Sessional"],
+      title: "Lecturer",
+      logo: NSNLogo,
+      start: "2010",
+      end: "2014",
+      description: "Deliver subjects in Digital Literacy",
+    },
+    {
+      company: "SAE + Quamtum",
+      link: "https://sae.edu.au/",
+      badges: ["Sessional"],
+      title: "Lecturer",
+      logo: NSNLogo,
+      start: "2007",
+      end: "2010",
+      description: "Deliver courses in Web, Design, Video and Animation. Audio",
+    },
+    {
+      company: "University of Newcastle. Fine Arts Faculty",
+      link: "https://www.newcastle.edu.au",
+      badges: ["Sessional"],
+      title: "Lecturer",
+      logo: NSNLogo,
+      start: "2001",
+      end: "2006",
+      description: "Design and deliver courses in Digital Imaging, Video",
+    },
+    {
+      company: "University of Western Sydney. Communications & Design.",
+      link: "https://www.westernsydney.edu.au",
+      badges: ["Sessional"],
+      title: "Lecturer",
+      logo: NSNLogo,
+      start: "2001",
+      end: "2006",
+      description: "Design and New Media, Web and Time based media.",
+    },
+    {
+      company: "Enmore TAFE",
+      link: "https://www.tafensw.edu.au/design-centre-enmore",
+      badges: ["Sessional"],
+      title: "Teacher",
+      logo: NSNLogo,
+      start: "2001",
+      end: "2006",
+      description: "Design and deliver courses in New media, Flash, Web Photo-media, Design. Animation",
+    },
+    {
+      company: "Doubleday Australia Pty.Ltd",
+      link: "https://www.doubleday.com.au/",
+      badges: ["Fulltime"],
+      title: "Photographer",
+      logo: NSNLogo,
+      start: "1996",
+      end: "1997",
+      description: "Producing studio product photography for direct marketing. Maintaining accounts and equipment",
+    },
+    {
+      company: "Computer Images, Crows Nest NSW",
+      link: " ",
+      badges: ["Fulltime"],
+      title: "Camera Operator",
+      logo: NSNLogo,
+      start: "1990",
+      end: "1992",
+      description: "Operate and manage small photographic studio servicing internal graphic needs; maintain budget; operate a Rostrum camera to create film dupes and matts; location, corporate, architectural, product and interior photography.",
+    },
+    {
+      company: " David Graphics Pty. Ltd Sydney",
+      link: " ",
+      badges: ["Fulltime"],
+      title: "Photographer",
+      logo: NSNLogo,
+      start: "1989",
+      end: "1992",
+      description: "Operate and manage small photographic studio servicing internal graphic needs; maintain budget; product photography for retail catalogues.",
+    },
+    
   ],
   skills: [
     "React/Next.js/Remix",
@@ -194,7 +197,29 @@ export const RESUME_DATA = {
     "System Architecture",
     "Remote Team Leadership",
   ],
-  projects: [
+  awards: [
+    {
+      award: "Recipient of Premiers Department Grant with Penrith Regional Gallery",
+      year: "2003",
+    },
+    {
+      award: "Recipient of New Media Grant for Interactive Works, Australia Council.",
+      year: "1999",
+    },
+    {
+      award: "The Art Directors Club, New York, NY 75th Awards, 'Merit Award for Editorial Publications' for Object Magazine, Craft Council of NSW.",
+      year: "1996",
+    },
+    {
+      award: "National Gallery of Australia Collection. 'Sea Shell Headset' Joyce Hinterding & Ian Hobbs",
+      year: "1988",
+    },
+    {
+      award: "National Gallery of Australia Collection. Poster, 'May 1st Club - Smash Capital'.",
+      year: "1983",
+    },
+  ],
+  exhibitions: [
     {
       title: "Monito",
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
