@@ -53,7 +53,6 @@ export const RESUME_DATA = {
       link: "https://ianhobbsmedia.com.au",
       badges: ["current"],
       title: "Media",
-      logo: MobileVikingsLogo,
       start: "2000",
       end: "now",
       description:
